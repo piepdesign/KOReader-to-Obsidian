@@ -1,4 +1,4 @@
 npm install -g pm2
-pm2 start "chokidar '/YOUR_Syncthings-Highlights-on-your-DEVICE/**/*.lua' -c 'node /full/path/to/EXAMPLE.js'" --name koreader-sync //.JS FFROM POINT 5
+pm2 start "chokidar '/YOUR_Syncthings-Highlights-on-your-DEVICE/**/*.lua' -c 'node /full/path/to/lua_to_md.js'" --name koreader-sync //.JS FFROM POINT 5
 pm2 save
 pm2 startup
